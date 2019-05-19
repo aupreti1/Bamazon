@@ -12,7 +12,7 @@ CREATE TABLE products (
     PRIMARY KEY(item_id)
 );
 
-INSERT INTO  products (itemid,productname,departmentname,price,stockquantity)
+INSERT INTO  products (item_id, product_name, department_name, price, stock_quantity)
 VALUES (1, "Stalking Jack The Ripper", "Book", 10.98, 5),
 (2, "Dip Pen", "Pen", 23.06, 105),
 (3, "Lion King", "Movie", 15.78, 50),
@@ -22,7 +22,7 @@ VALUES (1, "Stalking Jack The Ripper", "Book", 10.98, 5),
 (7, "Adult Coloring Book", "Book", 6.50, 68),
 (8, "String Light", "Decore", 5.90, 225),
 (9, "Elephant Tapestry", "Decore", 5.64, 87),
-(10, "Colored Pencils", "Pencils", 23.56, 45),
+(10, "Colored Pencils", "Pencils", 23.56, 45);
 
 SELECT*FROM products;
 
